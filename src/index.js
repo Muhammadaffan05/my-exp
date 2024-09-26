@@ -12,12 +12,13 @@ function calculate(num1, num2, operation) {
         case 'multiply':
             result = num1 * num2;
             break;
-        case 'divide':
+        case 'divide'://
             result = num1 / num2;
             break;
         default:
-            return 'Invalid Operation';
+            return 'Invalid Operation'; //
     }
+
 
     return `Result: ${result}`;
 }
